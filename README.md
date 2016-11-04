@@ -12,17 +12,17 @@ Easily switch between staging and production environments on your WP Engine inst
 ## Description ##
 
 Easily switch between staging and production environments on your WP Engine installs.
-Participate in development through [GitHub](https://github.com/theWEBDOGS/wpengine-environment-switch)!
+Participate in development through [GitHub](https://github.com/theWEBDOGS/wp-engine-environment-switch)!
 
 ## Installation ##
 
-1. Upload the plugin files to the `/wp-content/plugins/wpengine-environment-switch` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/wp-engine-environment-switch` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the 'WP Engine Environment Switch' plugin through the 'Plugins' menu in WordPress
 	
 ## Frequently Asked Questions ##
 
 ### Can I help to develop this plugin? ###
-Just fork it! Submit your pull requests from the [GitHub Repository](https://github.com/theWEBDOGS/wpengine-environment-switch).
+Just fork it! Submit your pull requests from the [GitHub Repository](https://github.com/theWEBDOGS/wp-engine-environment-switch).
 
 ### Is it possible to change the quicklink title? ###
 Yes, the menu title is customizable by providing a format string to be applied using [sprintf()](http://php.net/manual/en/function.sprintf.php). Filter the title's format string by configuring the following example somewhere to the functions.php of your theme
