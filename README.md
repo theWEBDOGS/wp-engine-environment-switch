@@ -27,20 +27,20 @@ Just fork it! Submit your pull requests from the [GitHub Repository](https://git
 ### Is it possible to change the quicklink title? ###
 Yes, the menu title is customizable by providing a format string to be applied using [sprintf()](http://php.net/manual/en/function.sprintf.php). Filter the title's format string by configuring the following example somewhere to the functions.php of your theme
 
-<code>
+```php
 add_filter( 'wpees-quicklink-format', 'filter_wpees_format' );
 
 function filter_wpees_format( $format ) {
     $format = 'View this page on $1s%';
     return $format;
 }
-</code>
+```
 
 ### Can I change the quicklink icon? ###
-Yes, you can use the filter `add_filter( 'wpees-quicklink-icon', 'filter_wpees_icon' );` and return a valid [Dashicon](https://developer.wordpress.org/resource/dashicons/) class name.
+Yes, you can use the filter ``add_filter( 'wpees-quicklink-icon', 'filter_wpees_icon' );`` and return a valid [Dashicon](https://developer.wordpress.org/resource/dashicons/) class name.
 
 ### Can I change the default capability needed to access the quicklinks? ###
-Yes, use `add_filter( 'wpees-quicklink-capability', 'filter_wpees_capability' );` and return the desired capability.
+Yes, use ``add_filter( 'wpees-quicklink-capability', 'filter_wpees_capability' );`` and return the desired capability.
 
 ## Changelog ##
 
